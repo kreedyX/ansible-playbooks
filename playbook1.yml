@@ -1,5 +1,5 @@
 ---
- - hosts: all
+ - hosts: app
    tasks:
-    - name: Copy file
-    - copy: src=/home/ubuntu/test1.txt dest=/home/ubuntu/test1.txt
+     - name: Copy file
+       copy: src=/home/ubuntu/test1.txt dest=/home/ubuntu/test1.txt
